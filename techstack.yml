@@ -1,0 +1,142 @@
+repo_name: JGaudette/PeerChat
+report_id: 84f74131caae1c230da4808499bb26fe
+repo_type: Public
+timestamp: '2023-11-09T12:44:55+00:00'
+requested_by: hironate
+provider: github
+branch: master
+detected_tools_count: 9
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 3.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Hironate
+  last_updated_on: 2014-04-04 19:43:49.000000000 Z
+- name: Socket.IO
+  description: Realtime application framework (Node.JS server)
+  website_url: http://socket.io/
+  version: 0.9.16
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Realtime Backend / API
+  image_url: https://img.stackshare.io/service/1161/vI0ZZlhZ_400x400.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Hironate
+  last_updated_on: 2014-04-04 19:43:49.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: package.json
+  last_updated_by: Hironate
+  last_updated_on: 2014-04-04 19:43:49.000000000 Z
+- name: PonyDebugger
+  description: Remote network and data debugging for your native iOS app using Chrome
+    Developer Tools
+  website_url: https://github.com/square/PonyDebugger
+  open_source: true
+  hosted_saas: false
+  category: Mobile
+  sub_category: Mobile Runtime Inspector
+  image_url: https://img.stackshare.io/service/729/Logo.png
+  detection_source: package.json
+  last_updated_by: Hironate
+  last_updated_on: 2014-04-04 19:43:49.000000000 Z
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 3.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Hironate
+  last_updated_on: 2014-04-04 19:43:49.000000000 Z
+  vulnerabilities:
+  - name: qs vulnerable to Prototype Pollution
+    cve_id: CVE-2022-24999
+    cve_url: https://github.com/advisories/GHSA-hrpp-h998-j3pp
+    detected_date: Dec 7
+    severity: high
+    first_patched: 4.17.3
+  - name: No Charset in Content-Type Header in express
+    cve_id: CVE-2014-6393
+    cve_url: https://github.com/advisories/GHSA-gpvr-g6gh-9mc2
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 3.11.0
+- name: node-static
+  description: Simple, compliant file streaming module for node
+  package_url: https://www.npmjs.com/node-static
+  version: 0.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16814/default_31a4e0e11d348225088320f3a5c5ea6fa49c27ad.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Hironate
+  last_updated_on: 2014-04-04 19:43:49.000000000 Z
+  vulnerabilities:
+  - name: node-static and @nubosoftware/node-static vulnerable to Directory Traversal
+    cve_id: CVE-2023-26111
+    cve_url: https://github.com/advisories/GHSA-5g97-whc9-8g7j
+    detected_date: Mar 8
+    severity: high
+    first_patched: 
+  - name: Denial of Service in node-static
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-8r4g-cg4m-x23c
+    detected_date: Sep 23
+    severity: moderate
+    first_patched: 
